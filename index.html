@@ -10,14 +10,14 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Concert One"> 
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro"> 
  
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 <style>
 body, h1,h2,h3,h4,h5,h6{
-font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Source Sans Pro', sans-serif;
 padding-top: 15px;
 
 }
@@ -29,7 +29,7 @@ padding-top: 20px;
 #aboutMe{
 padding-top: 20px; 
 }
-	
+
 .container-fluid {
   	  color:#262525;
   }
@@ -45,13 +45,16 @@ color:#262525;
 
 }
 
-  .bg-grey {
+.bg-grey {
       background-color: #ffffff;
   }
-  
+
+.nameHighlight {
+      color: #990000;
+  }  
   
 a, a:link, a:visited {
-  color: #3b43dd;
+  color: #1a75ff;
 }
 
 
@@ -127,12 +130,14 @@ a, a:link, a:visited {
 		<div class="container-fluid bg-grey">
 		  <br>
 			<div class="row">
-				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3" >
+			<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1" >
+			</div>
+			<div class="col-xs-10 col-sm-10 col-md-3 col-lg-3" >
 				<div data-spy="affix">	
-					<img src="img_perswebsite.jpg" class="img-circle img-responsive" alt="img1" width="252" height="180" > 
+					<img src="img_perswebsite_Vishu.jpg" class="img-circle img-responsive" alt="img1" width="252" height="180" > 
 					<h6 class="text-center"><b>Vishwanath Sindagi</b></h6>
 					<p class="text-center">PhD student at Rutgers University
-					<br><i class="fa fa-envelope" aria-hidden="true" style="color: #3b43dd;"></i>  vishwanath.sindagi@rutgers.edu
+					<br><i class="fa fa-envelope" aria-hidden="true" style="color: #1a75ff;"></i>  vishwanath.sindagi@rutgers.edu
 					<br>
 					<h4 class="text-center">
 					<a href="https://www.linkedin.com/in/vishwanath-sindagi-b178027"  target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i> </a>
@@ -143,14 +148,19 @@ a, a:link, a:visited {
 					</p>
 				</div>
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+				<div class="col-xs-10 col-sm-10 col-md-7 col-lg-7">
 				         <div class="row" id="aboutMe">
 				         		 <h3><b>About Me</b></h3>
-						  <h6>I am a PhD student in <a href="http://www.ece.rutgers.edu/" target="_blank">Department of Electrical and Computer Engineering</a> at <a href="https://www.rutgers.edu/" target="_blank"> 							Rutgers University</a>. My adviser is 
+						    <h6>I am a second year PhD student in <a href="http://www.ece.rutgers.edu/" target="_blank">Dept. Of Electrical & Computer Engineering</a> 
+						  at <a href="https://www.rutgers.edu/" target="_blank"> Rutgers University</a>. 
+						  I am being advised by
 						  <a href="http://www.rci.rutgers.edu/~vmp93/index.htm" target="_blank"> Prof. Vishal M Patel.</a>
-						  Prior joining Rutgers, I worked as a Technical Lead at Samsung Research Lab, Bangalore for 6 years.
-						  I graduated from <a href="https://www.iiitb.ac.in/" target="_blank">IIIT, Bangalore</a> in the year 2009 with a Master's degree in Infromation Technology. 
+						  Prior to joining Rutgers, I worked for Samsung R&D Institute-Bangalore.
+						  I graduated from <a href="https://www.iiitb.ac.in/" target="_blank">IIIT-Bangalore</a>with a Master's degree in Information Technology. 
 						  </h6>
+						 <h6>My research is on computer vision and machine learning with a specific focus on crowd analytics, 
+							 applications of generative modeling, domain adaptation and low-level vision.
+						 </h6>
 						  
 					</div>
 					<hr id="news">
@@ -177,14 +187,14 @@ a, a:link, a:visited {
 							<li>
 	      						<b>GP-GAN: Gender Preserving GAN for Synthesizing Faces from Landmarks.</b>
 								<a href="https://arxiv.org/pdf/1710.00962.pdf" target="_blank">(PDF) </a> 
-								<br>X. Di, <b>V. Sindagi</b> and V. M. Patel
+								<br>X. Di, <b class="nameHighlight">V. A. Sindagi</b> and V. M. Patel
 								<br>
 								
 							</li>
 							<li>
 	      						<b>Joint Transmission Map Estimation and Dehazing using Deep Networks.</b>
 								<a href="https://arxiv.org/pdf/1708.00581.pdf" target="_blank">(PDF) </a> 
-								<br>H. Zhang, <b>V. Sindagi</b> and V. M. Patel
+								<br>H. Zhang, <b class="nameHighlight">V. A. Sindagi</b> and V. M. Patel
 								<br>
 								
 							</li>
@@ -192,7 +202,7 @@ a, a:link, a:visited {
 								<b>Image De-raining Using a Conditional Generative Adversarial Network.</b>
 								<a href="https://arxiv.org/pdf/1701.05957v2.pdf" target="_blank">(PDF) </a> 
 								<a href="http://www.rci.rutgers.edu/~vmp93/index_ImageDeRaining.html" target="_blank">(Project Page)</a>
-								<br>H. Zhang, <b>V. Sindagi</b> and V. M. Patel
+								<br>H. Zhang, <b class="nameHighlight">V. A. Sindagi</b> and V. M. Patel
 								<br>
 							</li>
 										
@@ -207,20 +217,20 @@ a, a:link, a:visited {
 					<div class="row slideanim" >
 						<ul style="list-style-type:disc">
 							<li>
-								<b>A Survey of Recent Advances in CNN-based Single Image Crowd Counting and Density Estimation,</b>
+								<b>A Survey of Recent Advances in CNN-based Single Image Crowd Counting and Density Estimation</b>
 								
 								<a href="https://arxiv.org/pdf/1707.01202.pdf" target="_blank">(PDF) </a> 
-								<br><b>V. Sindagi</b> and V. M. Patel
-								<br><i>Pattern Recognition Letters, accepted for publication, July 2017.</i>
+								<br><b class="nameHighlight">V. A. Sindagi</b> and V. M. Patel
+								<br><i>Pattern Recognition Letters<b>(PRL)</b>, accepted for publication, July 2017.</i>
 								
 							</li>
 							
 							<li>
-	      						<b>Domain Adaptation for Automatic OLED Panel Defect Detection Using Adaptive Support Vector Data Description,</b>
+	      						<b>Domain Adaptation for Automatic OLED Panel Defect Detection Using Adaptive Support Vector Data Description</b>
 								
 								<a href="http://resolver.ebscohost.com/openurl?sid=google&auinit=VA&aulast=Sindagi&atitle=Domain+Adaptation+for+Automatic+OLED+Panel+Defect+Detection+Using+Adaptive+Support+Vector+Data+Description&id=doi:10.1007/s11263-016-0953-y&title=International+journal+of+computer+vision&volume=122&issue=2&date=2017&spage=193" target="_blank">(PDF) </a> 
-								<br><b>V. Sindagi</b> and S. Srivastava
-								<br><i>International Journal of Computer Vision, 2017</i>
+								<br><b class="nameHighlight">V. A. Sindagi</b> and S. Srivastava
+								<br><i>International Journal of Computer Vision<b>(IJCV)</b>, 2017</i>
 								
 							</li>
 
@@ -236,8 +246,8 @@ a, a:link, a:visited {
 								<b>Generating High-Quality Crowd Density Maps using Contextual Pyramid CNNs,</b>
 								
 								<a href="https://arxiv.org/pdf/1708.00953.pdf" target="_blank">(PDF) </a> 							
-								<br><b>V. Sindagi</b> and V. M. Patel
-								<br><i>IEEE International Conference on Computer Vision (ICCV), Venice, Italy, 2017.</i>
+								<br><b class="nameHighlight">V. A. Sindagi</b> and V. M. Patel
+								<br><i>IEEE International Conference on Computer Vision <b>(ICCV)</b>, Venice, Italy, 2017.</i>
 							</li>
 							
 							<li>
@@ -245,22 +255,24 @@ a, a:link, a:visited {
 								
 								<a href="https://arxiv.org/pdf/1707.09605.pdf" target="_blank">(PDF) </a>
 								<a href="https://github.com/svishwa/crowdcount-cascaded-mtl" target="_blank">(Code) </a>
-								<br><b>V. Sindagi</b> and V. M. Patel
-								<br><i>IEEE International Conference on Advanced Video and Signal-based Surveillance (AVSS), Lecce, Italy, 2017.</i>
+								<br><b class="nameHighlight">V. A. Sindagi</b> and V. M. Patel
+								<br><i>IEEE International Conference on Advanced Video and Signal-based Surveillance <b>(AVSS)</b>, Lecce, Italy, 2017.</i>
 							</li>
 
 							<li>
  								<b>OLED Panel Defect Detection Using Local Inlier-Outlier Ratios and Modified LBP.</b>
 								
 								<a href="http://www.mva-org.jp/Proceedings/2015USB/papers/07-03.pdf" target="_blank">(PDF) </a>
-								<br><b>V. Sindagi</b> and S. Srivastava
-								<br><i>IAPR International Conference on Machine Vision Applications (MVA), 2015 </i>
+								<br><b class="nameHighlight">V. A. Sindagi</b> and S. Srivastava
+								<br><i>IAPR International Conference on Machine Vision Applications <b>(MVA)</b>, Tokyo, Japan, 2015 </i>
 								 
 								
 							</li>
 						</ul>
 					</div>
 		
+				</div>
+				<div class="col-xs-1 col-sm-1 col-md-1 col-lg-1">
 				</div>
 			</div>
 		</div>
